@@ -67,7 +67,7 @@ public class LoginPage extends AppCompatActivity implements LoaderCallbacks<Curs
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
         // Set up the login form.
-        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
+        mEmailView = (AutoCompleteTextView) findViewById(R.id.user);
         populateAutoComplete();
 
         mPasswordView = (EditText) findViewById(R.id.password);
